@@ -1,6 +1,8 @@
-# xxxx
+# Django account template
 
 [![Django CI](https://github.com/Enriquema/django_account/actions/workflows/django.yml/badge.svg)](https://github.com/Enriquema/django_account/actions/workflows/django.yml)
+
+This repository is to have a template to easily include the account app/module to your new Django app.
 
 ## Prerequisites
 You need to have django 5.1 installed.
