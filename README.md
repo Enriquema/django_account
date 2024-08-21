@@ -1,7 +1,12 @@
-# Prerequisites
-You need to have django 5.1 installed
+# xxxx
 
-# Configure the account app into your django app
+[![Django CI](https://github.com/Enriquema/django_account/actions/workflows/django.yml/badge.svg)](https://github.com/Enriquema/django_account/actions/workflows/django.yml)
+
+## Prerequisites
+You need to have django 5.1 installed.
+Check the requirements
+
+## Configure the account app into your django app
 1. start your account app
 django-admin startapp account
 
@@ -11,7 +16,7 @@ django-admin startapp account
 ```shell
 python manage.py makemigrations
 python migrate
-```shell
+```
 
 4. modify your settings.py and add the following code
 ```python
